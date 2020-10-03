@@ -1,10 +1,136 @@
 <!DOCTYPE html>
+<style type="text/css">
+<!--
+ .tab { margin-left: 40px; }
+-->
+</style>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>HTML Assessment</title>
   </head>
+  <h2>TEXT</h2>
   <body>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <p>
+<strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<br>
+<p class=tab>
+<em><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+<br>
+<p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
   </body>
+  <br>
+  <head>
+      <title>Table Example</title>
+      <style>
+          table {
+              border-collapse: collapse;
+          }
+          th, td {
+              border: 1px solid blue;
+          }
+      </style>
+  </head>
+  <body>
+      <table>
+              <h1>Table</h1>
+          <tr>
+              <th colspan="4">Scores by Quarter
+              </th>
+          </tr>
+          <tr>
+              <th></th>
+              <th>Table Header</th>
+              <th>Table Header</th>
+              <th></th>
+          </tr>
+          <tr>
+              <th>Table cell</th>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+          </tr>
+          <tr>
+              <th>Table cell</th>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+          </tr>
+          <tr>
+              <th>Table cell</th>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+          </tr>
+          <tr>
+              <th>Table cell</th>
+              <td>Table cell</td>
+              <td>Table cell</td>
+              <td>Table cell</td>
+          </tr>
+      </table>
+      <br>
+      <h1>List</h1>
+      <ul>
+      <li>  <image src = "/Users/piercesteward/Downloads/cl.png" width="50" height="50" alt="Cloud Nine logo"><br>
+        <a  target="_blank" href="https://www.cloud9.gg/">Cloud Nine </a></li>
+        <ul>
+          <li>Coach:1</li>
+          <li>The Team</li>
+          <ol>
+            <li>Guy1</li>
+            <li>guy2</li>
+            <li>guy3</li>
+            <li>guy4</li>
+            <li>guy5</li>
+        </ol>
+        </ul>
+      </ul>
+      <ul>
+        <li><image src = "/Users/piercesteward/Downloads/tl.png" width="50" height="50" alt="Team Liquid logo"><br>
+          <a  target="_blank" href="https://www.teamliquid.com/">Team Liquid </a></li>
+          <ul>
+            <li>Coach:1</li>
+            <li>The Team</li>
+            <ol>
+            <li>Guy1</li>
+          <li>guy2</li>
+          <li>guy3</li>
+          <li>guy4</li>
+          <li>guy5</li>
+        </ol>
+      </ul>
+      <h2>FORM</h2>
+      <form>
+First Name: <input type="text" name="firstname">
+Last Name: <input type="text" name="lastname">
+<br>
+Favorite Sport:
+<select>
+  <option value="1">one</option>
+  <option value="2">two</option>
+  <option value="3">three</option>
+  <option value="4">four</option>
+  <option value="5">five</option>
+</select>
+<br>
+I have attended school for
+<input type="checkbox" name="1" value="one">One
+<input type="checkbox" name="2" value="two">Two
+<input type="checkbox" name="3" value="three">Three
+<input type="checkbox" name="4" value="four">Four
+<br>
+years.
+<br>
+<br>
+For this sport I prefer
+<br>
+<input type="radio" name="sport" value="amatuer">Amatuer
+<input type="radio" name="sport" value="college">College
+<input type="radio" name="sport" value="professional">Professional
+<br><br>
+<input type="submit" name="submit" value="Submit Query">
+      </form>
 </html>
