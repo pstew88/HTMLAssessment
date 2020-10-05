@@ -37,10 +37,10 @@ ul#teamRoster>li:last-child
 ul#teamRoster>li>img{
   display: none;
 }
-ul#teamRoster>li>ul>li>ol:first-line{
-font-weight: bold;
-{
-
 ul#checkbox-grid>li{
 list-style-type: none;
 }
+
+ul#teamRoster>li>ul>li>ol:first-line{
+font-weight: bold;
+{
